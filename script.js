@@ -1,3 +1,5 @@
 $(document).ready(function(){
-   $("#one").after("<p>Look at me!</p>") 
+  var para = $("<p>Look at me!</p>");
+  $("#one").after(para);
+  $("#two").after(para);
 });
