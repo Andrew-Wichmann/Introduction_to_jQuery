@@ -1,3 +1,3 @@
 $(document).ready(function(){
-    $("body").append("<p>I'm a new paragraph!</p>");
-})
+   $("#one").after("<p>Look at me!</p>") 
+});
