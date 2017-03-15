@@ -2,4 +2,10 @@ $('document').ready(function(){
     $('div').click(function(){
         $('div').fadeOut('fast');
     });
+    $('div').hover(function(){
+        $('div').addClass("red");
+    });
+    $('div').mouseleave(function(){
+        $('div').removeClass("red");
+    })
 });
