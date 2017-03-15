@@ -1,5 +1,5 @@
-$(document).ready(function(){
-    $("#text").click(function(){
-        $("#text").addClass('highlighted');
-    })
+$(document).ready(function()    {
+    $('#text').click(function() {
+        $(this).toggleClass("highlighted");
+    });
 });
