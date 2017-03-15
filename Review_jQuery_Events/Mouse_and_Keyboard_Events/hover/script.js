@@ -1,5 +1,12 @@
-$('document').ready(function(){
-    $('div').dblclick(function(){
-        $('div').fadeOut('fast');
-    });
-})
+$(document).ready(function(){
+
+  $('div').hover(
+    function(){
+        $(this).addClass("active");
+    },
+    function(){
+        $(this).removeClass("active");
+    }
+  );
+
+});
