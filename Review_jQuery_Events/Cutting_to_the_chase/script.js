@@ -1,3 +1,5 @@
 $('document').ready(function(){
-    $('div').fadeOut('fast');
+    $('div').click(function(){
+        $('div').fadeOut('fast');
+    });
 });
